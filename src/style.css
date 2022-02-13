@@ -1,0 +1,137 @@
+* {
+    background-color: #1C1C1C;
+    box-sizing:border-box;
+}
+
+.page {
+    font-family: Inter, sans-serif;
+    color: white; 
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 0; 
+    background: transparent; 
+}
+
+
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 73px;
+    margin-bottom: 73px;
+    width: 550px;
+    height: 868px;
+    background-color: #23252C;
+    padding: 44px 117px;
+    border-radius: 2%;
+    
+}
+
+.image {
+    width: 317px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    cursor: pointer;
+}
+
+.about-body {
+    width: 317px;
+    height: 399px;
+    background-color: #1A1B21;
+    box-sizing: border-box;
+}
+
+.about-body-name {
+    margin-top: 21px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about-body-role {
+    margin-top: 7px;
+    color: #F3BF99;
+    font-size: 19px;
+}
+
+.about-body-website {
+    font-size: 11px;
+    margin-top: 7px;
+}
+
+.about-body-mail-button {
+    width: 247px;
+    height: 34px;
+    border:none;
+    background-color: white;
+    margin-top: 16px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.about-body-mail-button:hover, .about-body-mail-button > img:hover {
+    background-color: skyblue;
+    transition: 1s;
+}
+
+.about-body-mail-button > img {
+    width: 14px;
+    background-color: white;
+}
+
+.about-body-about{
+    text-align: left;
+    padding-left: 35px;
+    margin-top: 32px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.about-body-about-detail {
+    font-size: 11px;
+    padding: 0px 35px;
+    text-align:left;
+    margin-top:5px;
+}
+
+.about-body-interests{
+    text-align: left;
+    padding-left: 35px;
+    font-weight: bold;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.about-body-interests-detail {
+    font-size: 11px;
+    padding: 0px 35px;
+    text-align:left;
+    margin-top:5px;
+}
+
+.footer {
+    background-color:#161619;
+    width: 317px;
+    height: 64px;
+    padding: 20px;
+}
+
+.footer > img {
+    cursor: pointer;
+    margin-right: 24px;
+}
+
+.footer > img:hover {
+    transition: 0.9s;
+    transform: rotateY(360deg);
+}
+
+.TwitterIcon {
+    margin-left: 22px;
+}
+
+.GitHubIcon {
+    margin-right:22px;
+}
