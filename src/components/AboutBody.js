@@ -2,12 +2,15 @@ import React from 'react'
 import emailIcon from '../images/email-icon.png'
 
 const AboutBody = () => {
+  const handleMail = () => {
+    window.open('mailto:pandeyatul0095@gmail.com?subject=Subject&body=Body%20goes%20here')
+  }
   return (
     <div className='about-body'>
         <div className='about-body-name'>Atul Kumar Pandey</div>
         <div className='about-body-role'>Frontend Developer</div>
         <div className='about-body-website'>pandeyatul12.com</div>
-        <button className='about-body-mail-button'><img src={emailIcon} alt='email icon'/> Email</button>
+        <button className='about-body-mail-button' onClick={handleMail}><img src={emailIcon} alt='email icon'/> Email</button>
         <div className='about-body-about'>About</div>
         <p className='about-body-about-detail'>Passionate software developer with a hands-on, 
         high-energy approach, well-developed skills in Agile methodology, 
